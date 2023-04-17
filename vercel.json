@@ -1,0 +1,16 @@
+{
+    "version":2,
+    "builds": [
+        { 
+        "src": "./Projeto-Todolis-Express/app.js",
+        "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+
+}
